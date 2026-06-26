@@ -1,0 +1,101 @@
+{
+    "indexingMode": "consistent",
+    "automatic": true,
+    "includedPaths": [
+        {
+            "path": "/*"
+        }
+    ],
+    "excludedPaths": [
+        {
+            "path": "/\"_etag\"/?"
+        },
+        {
+            "path": "/preprocessingLog/*"
+        },
+        {
+            "path": "/profilingResult/*"
+        },
+        {
+            "path": "/insights/*"
+        },
+        {
+            "path": "/preprocessingSummary/*"
+        },
+        {
+            "path": "/regressionAnalysisResult/*"
+        },
+        {
+            "path": "/timeseriesForecastResult/*"
+        },
+        {
+            "path": "/clusterAnalysisResult/*"
+        },
+        {
+            "path": "/documents/*"
+        },
+        {
+            "path": "/chatHistory/*"
+        },
+        {
+            "path": "/messages/*"
+        },
+        {
+            "path": "/result/*"
+        },
+        {
+            "path": "/history/*"
+        }
+    ],
+    "compositeIndexes": [
+        [
+            {
+                "path": "/userId",
+                "order": "ascending"
+            },
+            {
+                "path": "/createdAt",
+                "order": "descending"
+            }
+        ],
+        [
+            {
+                "path": "/userId",
+                "order": "ascending"
+            },
+            {
+                "path": "/type",
+                "order": "ascending"
+            },
+            {
+                "path": "/createdAt",
+                "order": "descending"
+            }
+        ],
+        [
+            {
+                "path": "/userId",
+                "order": "ascending"
+            },
+            {
+                "path": "/timestamp",
+                "order": "descending"
+            }
+        ],
+        [
+            {
+                "path": "/userId",
+                "order": "ascending"
+            },
+            {
+                "path": "/type",
+                "order": "ascending"
+            },
+            {
+                "path": "/timestamp",
+                "order": "descending"
+            }
+        ]
+    ],
+    "fullTextIndexes": []
+}

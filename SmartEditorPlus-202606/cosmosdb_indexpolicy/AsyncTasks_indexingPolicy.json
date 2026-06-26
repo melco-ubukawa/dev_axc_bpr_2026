@@ -1,0 +1,11 @@
+{
+    "indexingMode": "consistent",
+    "automatic": true,
+    "includedPaths": [ {"path": "/*"} ],
+    "excludedPaths": [
+        { "path": "/\"_etag\"/?" },
+        { "path": "/result/*" },
+        { "path": "/history/*" },
+        { "path": "/user_info/*" }
+    ]
+}
