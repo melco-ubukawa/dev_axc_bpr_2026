@@ -1,0 +1,70 @@
+# --- Web Framework & Server ---
+Flask==3.1.0
+flask-cors==5.0.1
+Flask-SocketIO==5.5.1
+Flask-3-Log-Request-ID
+gunicorn==23.0.0
+gevent==25.5.1
+gevent-websocket==0.10.1
+whitenoise[brotli]
+grpcio==1.71.0
+
+# --- Google Cloud & Generative AI ---
+google-cloud-aiplatform==1.94.0
+google-genai==1.41.0
+google-cloud-storage==2.19.0
+google-cloud-speech==2.32.0
+google-cloud-texttospeech==2.33.0
+
+# --- Document & File Processing ---
+python-magic==0.4.27
+python-pptx==1.0.2
+python-docx==1.1.2
+pillow==11.2.1
+chardet==5.2.0
+openpyxl==3.1.5
+PyMuPDF==1.25.5
+beautifulsoup4==4.13.3
+Markdown==3.8
+pdf2docx==0.5.8
+reportlab==4.4.2
+extract-msg==0.54.1
+xhtml2pdf==0.2.17
+
+# --- Video Processing ---
+moviepy==2.2.1
+cairosvg==2.8.2
+opencv-python-headless==4.11.0.86
+
+# --- Data Science & Machine Learning ---
+pandas==2.2.3
+matplotlib==3.10.1
+seaborn==0.13.2
+japanize-matplotlib==1.1.3
+scikit-learn==1.5.0
+statsmodels==0.14.2
+scipy==1.13.1
+numpy==1.26.4
+
+# --- Gradient Boosting (Optional but recommended) ---
+lightgbm==4.6.0
+xgboost==3.0.2
+catboost==1.2.8
+shap==0.49.1
+
+# --- Time Series Forecasting (Optional) ---
+prophet==1.1.7
+
+# --- Database & Utilities ---
+python-dotenv==1.1.0
+azure-cosmos==4.9.0
+azure-storage-blob==12.26.0
+azure-search-documents==11.5.3
+requests==2.32.3
+openai==1.100.1
+langchain==0.3.27
+tabulate==0.9.0
+librosa==0.11.0
+soundfile==0.13.1
+noisereduce==3.0.3
+setuptools==69.0.3
